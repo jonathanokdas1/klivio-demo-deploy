@@ -1,5 +1,5 @@
 import type { LoaderFunctionArgs } from "react-router";
-import { sitemap } from "../__generated__/$resources.sitemap.xml";
+import { sitemap } from "__SITEMAP__";
 
 export const loader = (arg: LoaderFunctionArgs) => {
   const host =

@@ -30,16 +30,16 @@ import {
   pageFontAssets,
   pageBackgroundImageAssets,
   breakpoints,
-} from "../__generated__/_index";
+} from "__CLIENT__";
 import {
   getResources,
   getPageMeta,
   getRemixParams,
   contactEmail,
-} from "../__generated__/_index.server";
-import * as constants from "../constants.mjs";
-import css from "../__generated__/index.css?url";
-import { sitemap } from "../__generated__/$resources.sitemap.xml";
+} from "__SERVER__";
+import * as constants from "__CONSTANTS__";
+import css from "__CSS__?url";
+import { sitemap } from "__SITEMAP__";
 
 const customFetch: typeof fetch = (input, init) => {
   if (typeof input !== "string") {

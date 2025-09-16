@@ -3,33 +3,27 @@
  * and we use `node --eval` to extract the constants.
  */
 export const assetBaseUrl = "/assets/";
-
-/**
- * URL.canParse(props.src)
- * @type {(url: string) => boolean}
- */
-const UrlCanParse = (url) => {
-  try {
-    new URL(url);
-    return true;
-  } catch {
-    return false;
-  }
-};
+export const imageBaseUrl = "/assets/";
 
 /**
  * @type {import("@webstudio-is/image").ImageLoader}
  */
 export const imageLoader = (props) => {
+  if (process.env.NODE_ENV !== "production") {
+    return imageBaseUrl + props.src;
+  }
+
   if (props.format === "raw") {
-    return props.src;
+    return imageBaseUrl + props.src;
   }
-  // IPX (sharp) does not support ico
-  if (props.src.endsWith('.ico')) {
-    return props.src;
-  }
-  // handle absolute urls
-  const path = UrlCanParse(props.src) ? `/${props.src}` : props.src;
-  // https://github.com/unjs/ipx?tab=readme-ov-file#modifiers
-  return `/_image/w_${props.width},q_${props.quality}${path}`;
+
+  // https://vercel.com/blog/build-your-own-web-framework#automatic-image-optimization
+  return (
+    "/_vercel/image?url=" +
+    encodeURIComponent(imageBaseUrl + props.src) +
+    "&w=" +
+    props.width +
+    "&q=" +
+    props.quality
+  );
 };
