@@ -11,7 +11,7 @@ import { Accordion as Accordion, AccordionItem as AccordionItem, AccordionHeader
 
       export const projectId = "c527137a-e075-4be8-ae98-a4e0d1328f15";
 
-      export const lastPublished = "2025-09-15T22:21:53.661Z";
+      export const lastPublished = "2025-09-16T00:37:00.295Z";
 
       export const siteName = "Klivio";
 
@@ -1206,12 +1206,12 @@ className={`w-box cc3dq2t c12sm2j2 cry9bxc`}>
 <Link
 className={`w-link c14yqvd4 c12n5uks csb0ifw cg5j03k c8od1c4 c135vpv5 csru8nn c1qyy4dh ct02u4h c1md20bl c1e892th c1qom380 c13tm33h czjsrhv c1di64f2 c1ru090q cujxabw c119suh8 cnqbj7z cz4drm4 cy1haag ci5f5wh clx2mg7 c1ph6sgd c1s4ttse cj3c47m cfw5mh8 c1apclts cqzihcd c82q2z c1t5a35i cl60rel c1ib9cr2 c55gr8u cra5x9r cm64msb`}>
 <HtmlEmbed
-code={"<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle></svg>"}
-className={`w-html-embed csru8nn ch2prsz cg4iiql c1qyy4dh ct02u4h`} />
+code={"<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" fill=\"#000000\" viewBox=\"0 0 256 256\"><path d=\"M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,16a88,88,0,0,1,73.72,40H128a48.08,48.08,0,0,0-45.6,33l-23.08-40A87.89,87.89,0,0,1,128,40Zm32,88a32,32,0,1,1-32-32A32,32,0,0,1,160,128ZM40,128a87.44,87.44,0,0,1,9.56-39.86L86.43,152c.06.1.13.19.19.28A48,48,0,0,0,137.82,175l-23.1,40A88.14,88.14,0,0,1,40,128Zm92.69,87.87L169.57,152c.08-.14.14-.28.22-.42a47.88,47.88,0,0,0-6-55.58H210a88,88,0,0,1-77.29,119.87Z\"></path></svg>"}
+className={`w-html-embed csru8nn ch2prsz cg4iiql c1qyy4dh ct02u4h csvthht`} />
 <Text
 tag={"span"}
-className={`w-text`}>
-{"button with icon"}
+className={`w-text c14r73oo`}>
+{"Instalar"}
 </Text>
 </Link>
 </Box>

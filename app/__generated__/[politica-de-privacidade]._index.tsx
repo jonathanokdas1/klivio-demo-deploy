@@ -9,7 +9,7 @@
 
       export const projectId = "c527137a-e075-4be8-ae98-a4e0d1328f15";
 
-      export const lastPublished = "2025-09-15T22:21:53.661Z";
+      export const lastPublished = "2025-09-16T00:37:00.295Z";
 
       export const siteName = "Klivio";
 
