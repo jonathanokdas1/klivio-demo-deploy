@@ -1,10 +1,10 @@
 {
   "build": {
-    "id": "0aa464f0-8cb9-4580-9ec7-8a4b019e8b80",
+    "id": "c6d1e2bf-d150-44ce-9f50-420c52732731",
     "projectId": "c527137a-e075-4be8-ae98-a4e0d1328f15",
-    "version": 693,
-    "createdAt": "2025-09-16T00:37:00.295+00:00",
-    "updatedAt": "2025-09-16T00:37:00.295+00:00",
+    "version": 694,
+    "createdAt": "2025-09-16T01:54:20.981+00:00",
+    "updatedAt": "2025-09-16T01:54:20.981+00:00",
     "pages": {
       "meta": {
         "siteName": "Klivio",
@@ -53006,7 +53006,7 @@
           "children": [
             {
               "type": "text",
-              "value": "Instalar"
+              "value": "teste"
             }
           ]
         }
